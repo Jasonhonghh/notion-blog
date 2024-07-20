@@ -7,12 +7,12 @@ usage_model = "bundled"
 command = "cargo install -q worker-build && worker-build --release"
 
 [vars]
-MY_DOMAIN = "blog.kali-team.cn"
-NOTION_DOMAIN = "kali-team.notion.site"
-PAGE_MAP = '{"/":"edb6a939baab4424a25fd295b3c51312","/links":"9c74faba0b14441a93c2f94a40da3f79","/donate":"eb55bc48f7fb42bfaef8473d2b7b63aa","/about":"7a0e2b5d0137452cb7299f9000970caa"}'
+MY_DOMAIN = "hongdatou.top"
+NOTION_DOMAIN = "special-pentagon-72e.notion.site"
+PAGE_MAP = '{"/":"blog-0ee44d46b1414fc4839d6732c28bf173?pvs=4","/links":"link-a4cc34e866a144bd919edcc93762575c?pvs=4","/donate":"donate-ae7b6a63dda24a83bf87b2af908857ff?pvs=4","/about":"about-4aa6eff99185471a90e2774aad574e67?pvs=4'
 COMMENT_MAP = '{"data-repo":"cn-kali-team/notion-blog","data-repo-id":"R_kgDOI1wUgQ","data-category-id":"DIC_kwDOI1wUgc4CZK9O","data-mapping":"title","data-input-position":"top","data-theme":"preferred_color_scheme","data-lang":"zh-CN"}'
-PAGE_TITLE = "Kali-Team"
-PAGE_DESCRIPTION = "三米前有蕉皮|现阶段在做互联网攻击面自动化相关安全研究工作"
+PAGE_TITLE = "Hong"
+PAGE_DESCRIPTION = "Hong | 后端/安全选手"
 ICON_URL = "https://avatars.githubusercontent.com/u/30642514?v=4"
 QUERY_BODY = '{"collectionView":{"id":"a5b688dd-2876-4f80-a47d-d84e713ac56e","spaceId":"d4aa424b-d5f8-4dc3-a0fb-e5270f17203e"},"source":{"type":"collection","id":"52de4e5e-ba6e-46a2-9dc5-5581637cf339","spaceId":"d4aa424b-d5f8-4dc3-a0fb-e5270f17203e"},"loader":{"type":"reducer","reducers":{"collection_group_results":{"type":"results","limit":10},"table:uncategorized:title:count":{"type":"aggregation","aggregation":{"property":"title","aggregator":"count"}},"table:uncategorized:[[=B:unique":{"type":"aggregation","aggregation":{"property":"[[=B","aggregator":"unique"}},"table:uncategorized:enzw:date_range":{"type":"aggregation","aggregation":{"property":"enzw","aggregator":"date_range"}}},"sort":[{"property":"enzw","direction":"descending"}],"searchQuery":"","userTimeZone":"Asia/Shanghai"}}'
 
