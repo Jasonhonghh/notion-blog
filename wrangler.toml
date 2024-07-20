@@ -1,15 +1,15 @@
 name = "blog"
 main = "build/worker/shim.mjs"
 compatibility_date = "2023-03-22"
-routes = [{ pattern = "*.hongdatou.top/blog", zone_id = "6570bd9018b428076624ed3bad29bb39" }]
+routes = [{ pattern = "blog.hongdatou.top/*", zone_id = "6570bd9018b428076624ed3bad29bb39" }]
 usage_model = "bundled"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
 [vars]
 MY_DOMAIN = "hongdatou.top"
-NOTION_DOMAIN = "special-pentagon-72e.notion.site"
-PAGE_MAP = '{"/":"blog-0ee44d46b1414fc4839d6732c28bf173?pvs=4","/links":"link-a4cc34e866a144bd919edcc93762575c?pvs=4","/donate":"donate-ae7b6a63dda24a83bf87b2af908857ff?pvs=4","/about":"about-4aa6eff99185471a90e2774aad574e67?pvs=4'
+NOTION_DOMAIN = "hongdatou.notion.site"
+PAGE_MAP = '{"/":"0ee44d46b1414fc4839d6732c28bf173","/links":"a4cc34e866a144bd919edcc93762575c","/donate":"ae7b6a63dda24a83bf87b2af908857ff","/about":"4aa6eff99185471a90e2774aad574e67"}'
 COMMENT_MAP = '{"data-repo":"cn-kali-team/notion-blog","data-repo-id":"R_kgDOI1wUgQ","data-category-id":"DIC_kwDOI1wUgc4CZK9O","data-mapping":"title","data-input-position":"top","data-theme":"preferred_color_scheme","data-lang":"zh-CN"}'
 PAGE_TITLE = "Hong"
 PAGE_DESCRIPTION = "Hong | 后端/安全选手"
