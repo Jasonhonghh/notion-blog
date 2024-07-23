@@ -7,7 +7,7 @@ usage_model = "bundled"
 command = "cargo install -q worker-build && worker-build --release"
 
 [vars]
-MY_DOMAIN = "hongdatou.top"
+MY_DOMAIN = "blog.hongdatou.top"
 NOTION_DOMAIN = "hongdatou.notion.site"
 PAGE_MAP = '{"/":"0ee44d46b1414fc4839d6732c28bf173","/links":"a4cc34e866a144bd919edcc93762575c","/donate":"ae7b6a63dda24a83bf87b2af908857ff","/about":"4aa6eff99185471a90e2774aad574e67"}'
 COMMENT_MAP = '{"data-repo":"Jasonhonghh/notion-blog","data-repo-id":"R_kgDOMYxJ2w","data-category-id":"DIC_kwDOMYxJ284ChCKS","data-mapping":"title","data-input-position":"top","data-theme":"preferred_color_scheme","data-lang":"zh-CN"}'
